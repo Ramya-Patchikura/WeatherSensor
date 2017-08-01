@@ -7,6 +7,15 @@
   <version>1.0.0</version>
   <packaging>war</packaging>
 
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.2</version>
+      </plugin>
+    </plugins>
+  
   <name>Weather_Sensor</name>
   <url>http://maven.apache.org</url>
 
