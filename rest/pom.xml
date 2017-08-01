@@ -6,15 +6,8 @@
   <artifactId>Weather_Sensor</artifactId>
   <version>1.0.0</version>
   <packaging>war</packaging>
-  
-   <name>Weather_Sensor</name>
-  <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-    <build>
+  <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -22,10 +15,20 @@
         <version>2.2</version>
       </plugin>
     </plugins>
-  
- 
+
+
+  </build>
+
+  <name>Weather_Sensor</name>
+  <url>http://maven.apache.org</url>
+
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 
   <dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
